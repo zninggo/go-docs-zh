@@ -249,7 +249,8 @@ async function main() {
   try {
     console.log('=== 开始翻译任务 ===\n');
 
-    const config = await loadJSON(CONFIG_PATH);
+    const rawConfig = await loadJSON(CONFIG_PATH);
+    const config = resolveEnvVars(rawConfig);
     const glossary = loadGlossary();
 
     let queue;
