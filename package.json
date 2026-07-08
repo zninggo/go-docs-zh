@@ -1,0 +1,24 @@
+{
+  "name": "go-docs-zh",
+  "version": "1.0.0",
+  "description": "Go 语言官方文档中文版",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync-upstream.js",
+    "translate": "node scripts/translate.js",
+    "build": "node scripts/build.js",
+    "start": "node scripts/build.js && cd site && npx serve",
+    "deploy": "npm run build && gh-pages -d site"
+  },
+  "dependencies": {
+    "marked": "^12.0.0",
+    "front-matter": "^4.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "serve": "^14.2.0"
+  },
+  "keywords": ["go", "golang", "documentation", "chinese", "translation"],
+  "author": "zninggo",
+  "license": "MIT"
+}

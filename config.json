@@ -1,0 +1,30 @@
+{
+  "upstream": {
+    "repo": "golang/website",
+    "branch": "master",
+    "content_path": "_content",
+    "docs_paths": [
+      "doc/articles",
+      "doc/tutorial"
+    ]
+  },
+  "translation": {
+    "provider": "openai",
+    "api_url": "${TRANSLATION_API_URL}",
+    "model": "${TRANSLATION_MODEL}",
+    "batch_size": 5,
+    "timeout": 30000,
+    "max_retries": 3
+  },
+  "site": {
+    "title": "Go 语言官方文档中文版",
+    "description": "Go 语言官方文档的中文翻译版本",
+    "base_url": "https://yourusername.github.io/go-docs-zh",
+    "language": "zh-CN"
+  },
+  "paths": {
+    "upstream": "docs/en",
+    "translated": "docs/zh",
+    "output": "site"
+  }
+}
