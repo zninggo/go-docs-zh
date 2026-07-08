@@ -464,6 +464,7 @@ async function main() {
     const config = await loadConfig();
 
     await ensureDir(OUTPUT_DIR);
+    await ensureDir(DOCS_DIR);
 
     console.log('扫描文档文件...');
     const files = await scanDocs(DOCS_DIR);
