@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-07-08T15:57:48.512Z",
+  "files": [
+    {
+      "source": "doc/articles/go_command.html",
+      "target": "doc/articles/go_command.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T15:59:22.062Z"
+    },
+    {
+      "source": "doc/articles/index.html",
+      "target": "doc/articles/index.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T15:59:31.170Z"
+    },
+    {
+      "source": "doc/articles/race_detector.html",
+      "target": "doc/articles/race_detector.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:01:19.305Z"
+    },
+    {
+      "source": "doc/articles/wiki/edit.html",
+      "target": "doc/articles/wiki/edit.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:01:37.074Z"
+    },
+    {
+      "source": "doc/articles/wiki/index.html",
+      "target": "doc/articles/wiki/index.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:04:51.895Z"
+    },
+    {
+      "source": "doc/articles/wiki/view.html",
+      "target": "doc/articles/wiki/view.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:05:05.180Z"
+    },
+    {
+      "source": "doc/tutorial/add-a-test.html",
+      "target": "doc/tutorial/add-a-test.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:05:55.642Z"
+    },
+    {
+      "source": "doc/tutorial/call-module-code.html",
+      "target": "doc/tutorial/call-module-code.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:06:56.795Z"
+    },
+    {
+      "source": "doc/tutorial/compile-install.html",
+      "target": "doc/tutorial/compile-install.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:07:44.739Z"
+    },
+    {
+      "source": "doc/tutorial/create-module.html",
+      "target": "doc/tutorial/create-module.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:08:49.925Z"
+    },
+    {
+      "source": "doc/tutorial/database-access.md",
+      "target": "doc/tutorial/database-access.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:15:40.408Z"
+    },
+    {
+      "source": "doc/tutorial/fuzz.md",
+      "target": "doc/tutorial/fuzz.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:23:36.991Z"
+    },
+    {
+      "source": "doc/tutorial/generics.md",
+      "target": "doc/tutorial/generics.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:28:00.191Z"
+    },
+    {
+      "source": "doc/tutorial/getting-started.html",
+      "target": "doc/tutorial/getting-started.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:28:56.469Z"
+    },
+    {
+      "source": "doc/tutorial/govulncheck-ide.md",
+      "target": "doc/tutorial/govulncheck-ide.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:29:53.991Z"
+    },
+    {
+      "source": "doc/tutorial/govulncheck.md",
+      "target": "doc/tutorial/govulncheck.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:32:49.441Z"
+    },
+    {
+      "source": "doc/tutorial/greetings-multiple-people.html",
+      "target": "doc/tutorial/greetings-multiple-people.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:33:38.093Z"
+    },
+    {
+      "source": "doc/tutorial/handle-errors.html",
+      "target": "doc/tutorial/handle-errors.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:34:23.320Z"
+    },
+    {
+      "source": "doc/tutorial/index.html",
+      "target": "doc/tutorial/index.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:34:52.937Z"
+    },
+    {
+      "source": "doc/tutorial/module-conclusion.html",
+      "target": "doc/tutorial/module-conclusion.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:35:13.102Z"
+    },
+    {
+      "source": "doc/tutorial/random-greeting.html",
+      "target": "doc/tutorial/random-greeting.md",
+      "type": "html",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:35:55.480Z"
+    },
+    {
+      "source": "doc/tutorial/web-service-gin.md",
+      "target": "doc/tutorial/web-service-gin.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:42:05.505Z"
+    },
+    {
+      "source": "doc/tutorial/workspaces.md",
+      "target": "doc/tutorial/workspaces.md",
+      "type": "markdown",
+      "status": "completed",
+      "translatedAt": "2026-07-08T16:45:41.632Z"
+    }
+  ]
+}
