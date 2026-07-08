@@ -59,6 +59,14 @@ jobs:
           TRANSLATION_API_KEY: ${{ secrets.TRANSLATION_API_KEY }}
           TRANSLATION_MODEL: ${{ secrets.TRANSLATION_MODEL }}
 
+      - name: Verify translations
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: node scripts/verify.js
+        env:
+          TRANSLATION_API_URL: ${{ secrets.TRANSLATION_API_URL }}
+          TRANSLATION_API_KEY: ${{ secrets.TRANSLATION_API_KEY }}
+          TRANSLATION_MODEL: ${{ secrets.TRANSLATION_MODEL }}
+
       - name: Build site
         run: node scripts/build.js
 
