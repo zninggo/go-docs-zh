@@ -11,6 +11,7 @@
   "translation": {
     "provider": "openai",
     "api_url": "${TRANSLATION_API_URL}",
+    "api_key": "${TRANSLATION_API_KEY}",
     "model": "${TRANSLATION_MODEL}",
     "batch_size": 5,
     "timeout": 30000,
