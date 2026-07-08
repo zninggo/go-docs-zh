@@ -117,21 +117,34 @@ async function scanDocs(dir, basePath = '') {
     if (entry.isDirectory()) {
       const subFiles = await scanDocs(fullPath, relativePath);
       files.push(...subFiles);
-    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.html'))) {
       const content = await fs.readFile(fullPath, 'utf-8');
       const stat = await fs.stat(fullPath);
+      const ext = path.extname(entry.name);
 
-      let title = entry.name.replace('.md', '');
+      let title = entry.name.replace(ext, '');
       let description = '';
 
-      const titleMatch = content.match(/^#\s+(.+)$/m);
-      if (titleMatch) {
-        title = titleMatch[1];
-      }
+      if (ext === '.md') {
+        const titleMatch = content.match(/^#\s+(.+)$/m);
+        if (titleMatch) {
+          title = titleMatch[1];
+        }
 
-      const descMatch = content.match(/^(.+?)(?:\n\n|\n#)/s);
-      if (descMatch) {
-        description = descMatch[1].replace(/[*_`]/g, '').slice(0, 150);
+        const descMatch = content.match(/^(.+?)(?:\n\n|\n#)/s);
+        if (descMatch) {
+          description = descMatch[1].replace(/[*_`]/g, '').slice(0, 150);
+        }
+      } else {
+        const titleMatch = content.match(/<title>([^<]+)<\/title>/i) || content.match(/<h1[^>]*>([^<]+)<\/h1>/i);
+        if (titleMatch) {
+          title = titleMatch[1];
+        }
+
+        const descMatch = content.match(/<meta\s+name="description"\s+content="([^"]+)"/i);
+        if (descMatch) {
+          description = descMatch[1].slice(0, 150);
+        }
       }
 
       files.push({
@@ -161,14 +174,21 @@ function renderMarkdown(content) {
 
 async function generateDocPage(file) {
   const content = await fs.readFile(path.join(DOCS_DIR, file.path), 'utf-8');
-  const htmlContent = renderMarkdown(content);
+  const ext = path.extname(file.path);
+
+  let htmlContent;
+  if (ext === '.md') {
+    htmlContent = renderMarkdown(content);
+  } else {
+    htmlContent = content;
+  }
 
   const page = HTML_TEMPLATE
     .replace('{{title}}', file.title)
     .replace('{{description}}', file.description)
     .replace('{{content}}', htmlContent);
 
-  const outputPath = path.join(OUTPUT_DIR, file.path.replace('.md', '.html'));
+  const outputPath = path.join(OUTPUT_DIR, file.path);
   await ensureDir(path.dirname(outputPath));
   await fs.writeFile(outputPath, page);
 
