@@ -1,0 +1,140 @@
+[
+  {
+    "title": "go_command",
+    "description": "<!--{\n\t\"title\": \"关于go命令\"\n}-->",
+    "path": "/doc/articles/go_command.html",
+    "category": "article"
+  },
+  {
+    "title": "index",
+    "description": "<!--{\n\t\"Title\": \"/doc/articles/\"\n}-->",
+    "path": "/doc/articles/index.html",
+    "category": "article"
+  },
+  {
+    "title": "race_detector",
+    "description": "<!--{\n\t\"Title\": \"数据竞争检测器\"\n}-->",
+    "path": "/doc/articles/race_detector.html",
+    "category": "article"
+  },
+  {
+    "title": "edit",
+    "description": "<h1>编辑 {{.Title}}</h1>",
+    "path": "/doc/articles/wiki/edit.html",
+    "category": "article"
+  },
+  {
+    "title": "index",
+    "description": "<!--{\n\t\"Title\": \"编写 Web 应用\",\n\t\"Template\": true,\n\t\"Breadcrumb\": true\n}-->",
+    "path": "/doc/articles/wiki/index.html",
+    "category": "article"
+  },
+  {
+    "title": "view",
+    "description": "<h1>{{.标题}}</h1>",
+    "path": "/doc/articles/wiki/view.html",
+    "category": "article"
+  },
+  {
+    "title": "add-a-test",
+    "description": "<!--{\n    \"Title\": \"添加测试\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/add-a-test.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "call-module-code",
+    "description": "<!--{\n    \"Title\": \"从另一个模块调用你的代码\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/call-module-code.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "compile-install",
+    "description": "<!--{\n    \"Title\": \"编译并安装应用程序\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/compile-install.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "create-module",
+    "description": "<!--{\n    \"Title\": \"教程：创建一个Go模块\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/create-module.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "database-access",
+    "description": "<!--{\n  \"Title\": \"教程：访问关系数据库\",\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/database-access.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "fuzz",
+    "description": "<!--{\n  \"Template\": true,\n  \"Title\": \"教程：模糊测试入门\",\n  \"HideTOC\": true,\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/fuzz.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "generics",
+    "description": "<!--{\n  \"Title\": \"教程：泛型入门\",\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/generics.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "getting-started",
+    "description": "<!--{\n    \"Title\": \"教程：Go 语言入门指南\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/getting-started.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "govulncheck-ide",
+    "description": "<!--{\n  \"Title\": \"教程：使用 VS Code Go 查找并修复易受攻击的依赖\",\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/govulncheck-ide.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "govulncheck",
+    "description": "<!--{\n  \"Title\": \"教程：使用 govulncheck 查找并修复存在漏洞的依赖\",\n  \"HideTOC\": true,\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/govulncheck.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "greetings-multiple-people",
+    "description": "<!--{\n    \"Title\": \"为多人返回问候语\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/greetings-multiple-people.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "handle-errors",
+    "description": "<!--{\n    \"Title\": \"返回并处理错误\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/handle-errors.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "index",
+    "description": "<!--{\n    \"Title\": \"教程\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/index.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "module-conclusion",
+    "description": "<!--{\n    \"Title\": \"结论\",\n    \"Path\":  \"/doc/tutorial/module-conclusion\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/module-conclusion.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "random-greeting",
+    "description": "<!--{\n    \"Title\": \"返回随机问候语\",\n    \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/random-greeting.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "web-service-gin",
+    "description": "<!--{\n  \"Title\": \"教程：使用 Go 和 Gin 开发 RESTful API\",\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/web-service-gin.html",
+    "category": "tutorial"
+  },
+  {
+    "title": "workspaces",
+    "description": "<!--{\n  \"Title\": \"教程：多模块工作区入门\",\n  \"Breadcrumb\": true\n}-->",
+    "path": "/doc/tutorial/workspaces.html",
+    "category": "tutorial"
+  }
+]
