@@ -167,6 +167,11 @@ async function main() {
       try {
         const result = await callVerifyAPI(enContent, zhContent, glossary, config);
 
+        if (!result) {
+          console.log('  ! 验证跳过: API 返回空结果');
+          continue;
+        }
+
         if (result.includes('PASS')) {
           console.log('  ✓ 通过');
           results.pass++;
