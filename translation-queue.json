@@ -1,12 +1,40 @@
 {
-  "timestamp": "2026-07-09T03:21:48.040Z",
+  "timestamp": "2026-07-16T05:12:42.226Z",
   "files": [
     {
-      "source": "doc/tutorial/generics.md",
-      "target": "doc/tutorial/generics.md",
+      "source": "doc/tutorial/create-module.html",
+      "target": "doc/tutorial/create-module.md",
+      "type": "html",
+      "status": "failed",
+      "error": "API 请求失败: 500 Internal Error"
+    },
+    {
+      "source": "doc/tutorial/fuzz.md",
+      "target": "doc/tutorial/fuzz.md",
       "type": "markdown",
-      "status": "completed",
-      "translatedAt": "2026-07-09T03:24:20.552Z"
+      "status": "failed",
+      "error": "API 请求失败: 500 Internal Error"
+    },
+    {
+      "source": "doc/tutorial/govulncheck.md",
+      "target": "doc/tutorial/govulncheck.md",
+      "type": "markdown",
+      "status": "failed",
+      "error": "API 请求失败: 500 Internal Error"
+    },
+    {
+      "source": "doc/tutorial/web-service-gin.md",
+      "target": "doc/tutorial/web-service-gin.md",
+      "type": "markdown",
+      "status": "failed",
+      "error": "API 请求失败: 500 Internal Error"
+    },
+    {
+      "source": "doc/tutorial/workspaces.md",
+      "target": "doc/tutorial/workspaces.md",
+      "type": "markdown",
+      "status": "failed",
+      "error": "API 请求失败: 500 Internal Error"
     }
   ]
 }

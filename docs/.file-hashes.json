@@ -8,18 +8,18 @@
   "doc/tutorial/add-a-test.html": "f6217874d43e386ec6d4dfebab7c0e64",
   "doc/tutorial/call-module-code.html": "6c618c2d88f2815be381ea9dddbd3549",
   "doc/tutorial/compile-install.html": "495b342b7e1f90137b664ed397f2da45",
-  "doc/tutorial/create-module.html": "7e2923add3e8acf1de396d9be37abec4",
+  "doc/tutorial/create-module.html": "a5001931a93cdd1fbf75a4186b135a1f",
   "doc/tutorial/database-access.md": "807a72b66109263651940924aa67a102",
-  "doc/tutorial/fuzz.md": "d5243ef80d1b4a7f41f6dd769df34136",
+  "doc/tutorial/fuzz.md": "890b192eea4ab2b70c8b6344c13416e8",
   "doc/tutorial/generics.md": "6cba57ca5de8462d2f933bad8c10afc5",
   "doc/tutorial/getting-started.html": "fc8b3b3bc336adaf1989f81faea889b4",
   "doc/tutorial/govulncheck-ide.md": "669ca7e1c5ec844478df7d23f4e63bfc",
-  "doc/tutorial/govulncheck.md": "91a5fca45595e097cf885439c6e98330",
+  "doc/tutorial/govulncheck.md": "0a0d4a521af5079ee34e838391031a27",
   "doc/tutorial/greetings-multiple-people.html": "bbc62e441dfa1d0c60631207ed8289bd",
   "doc/tutorial/handle-errors.html": "0d56f895c30e0d33a0df5b6d87c1d916",
   "doc/tutorial/index.html": "1bb7ed922e87e0a9433358ae31323158",
   "doc/tutorial/module-conclusion.html": "02c9b82254d596cb5f024bdf3ef77499",
   "doc/tutorial/random-greeting.html": "3825bc143fc8261378246020542a82b7",
-  "doc/tutorial/web-service-gin.md": "8462f17cd7e20da5ee152c0a8eb7aa1a",
-  "doc/tutorial/workspaces.md": "3ebee284fba275f901d981350f72cea6"
+  "doc/tutorial/web-service-gin.md": "6335f6d7df1255ca13d81adfd9ee99cb",
+  "doc/tutorial/workspaces.md": "7da72015d6169f2994a7fdae676f3d9d"
 }
